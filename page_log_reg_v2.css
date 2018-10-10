@@ -39,6 +39,8 @@ body {
 .reg-block .form-control:focus {
    box-shadow: none;
    border-color: #999;
+   min-width: 300px;
+   min-height: 32px;
 }
 
 .reg-block .checkbox { 
@@ -71,7 +73,48 @@ body {
 	}
 }
 
-.btn {
-    border: solid;
+.dropdown {
+    margin-bottom: 10px;
+    align-content: left;
+}
+
+button {
+    border-color: #999;
     min-width: 160px;
+    min-height: 32px;
+    margin: 0px;
+}
+
+.dropdown-toggle {
+    color: #bbb;
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    min-width: 160px;
+    float: left;
+    display: block;
+}
+
+.dropdown-textbox {
+    align-content: right;
+    min-width: 300px;
+    min-height: 32px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    display: block;
+    float: right;
+}
+
+.block {
+    display: block;
+}
+
+.textarea {
+    min-width: 300px;
+    min-height: 128px;
+    float: right;
+}
+
+.address {
+    float: left;
 }
