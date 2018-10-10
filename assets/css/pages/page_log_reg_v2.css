@@ -118,3 +118,7 @@ button {
 .address {
     float: left;
 }
+
+.form-control textbox {
+    min-width: 100px;
+}
