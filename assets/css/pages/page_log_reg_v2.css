@@ -5,7 +5,7 @@ body {
 }
 
 .reg-block {
-	width: 500px;
+	width: 800px;
 	padding: 20px;
 	margin: 60px auto;
 	background: #fff;
@@ -91,18 +91,16 @@ button {
     float: left;
     margin-bottom: 30px;
     min-width: 160px;
-    float: left;
     display: block;
 }
 
 .dropdown-textbox {
     align-content: right;
-    min-width: 300px;
+    min-width: 600px;
     min-height: 32px;
     margin-bottom: 10px;
     box-shadow: none;
     display: block;
-    float: right;
 }
 
 .block {
@@ -112,7 +110,6 @@ button {
 .textarea {
     min-width: 300px;
     min-height: 128px;
-    float: right;
 }
 
 .address {
@@ -121,4 +118,13 @@ button {
 
 .form-control textbox {
     min-width: 100px;
+}
+
+.input {
+    min-width: 300px;
+    min-height: 32px;
+}
+
+.addresses {
+    min-width: px;
 }
