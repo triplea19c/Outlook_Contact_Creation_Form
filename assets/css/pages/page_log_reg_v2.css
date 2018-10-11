@@ -110,10 +110,13 @@ button {
 .textarea {
     min-width: 300px;
     min-height: 128px;
+    float: left;
+    display: block;
 }
 
 .address {
     float: left;
+    display: block;
 }
 
 .form-control textbox {
